@@ -15,14 +15,14 @@ function shuffle(array) {
 
 // Picturs array:
 
-let picBack = `/Users/rotemrogers/Documents/Fullstack/yesodot/memory game/pics/Question_mark_(black).png`
+let picBack = `memory_game_Rotem/pics/Question_mark_(black).png`
 
-let pic1 = '/Users/rotemrogers/Documents/Fullstack/yesodot/memory game/pics/img-1.png'
-let pic2 = '/Users/rotemrogers/Documents/Fullstack/yesodot/memory game/pics/img-2.png'
-let pic3 = '/Users/rotemrogers/Documents/Fullstack/yesodot/memory game/pics/img-3.png'
-let pic4 = '/Users/rotemrogers/Documents/Fullstack/yesodot/memory game/pics/img-4.png'
-let pic5 = '/Users/rotemrogers/Documents/Fullstack/yesodot/memory game/pics/img-5.png'
-let pic6 = '/Users/rotemrogers/Documents/Fullstack/yesodot/memory game/pics/img-6.png'
+let pic1 = 'memory_game_Rotem/pics/img-1.png'
+let pic2 = 'memory_game_Rotem/pics/img-2.png'
+let pic3 = 'memory_game_Rotem/pics/img-3.png'
+let pic4 = '/memory_game_Rotem/pics/img-4.png'
+let pic5 = 'memory_game_Rotem/pics/img-5.png'
+let pic6 = '/memory_game_Rotem/pics/img-6.png'
 
 let picturesBlank = [pic1, pic2, pic3, pic4, pic5, pic6]
 
