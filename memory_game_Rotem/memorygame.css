@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    direction: ltr;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__480.jpg);
+}
+
+.title{
+    text-align: center;
+}
+
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    position: relative;
+    width: 100px; height:100px;
+    margin: 3px;
+    padding: 10px;
+}
+
+.card_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 1;
+}
+
+.card_none{
+    opacity: 0;
+    z-index: 0;
+}
